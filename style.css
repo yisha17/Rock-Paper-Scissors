@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body {
+    background-color: aquamarine;
+}
+
+.hello {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello h1 {
+     font-family: 'Creepster', cursive;
+     font-size: 70px;
+     color: yellow;
+}
+
