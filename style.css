@@ -1,7 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 body {
-    background-color: aquamarine;
+    background-color: darkgreen;
+    margin: 0;
+    font-family: 'Creepster', cursive;
+    box-sizing: border-box;
+    color: yellow;
 }
 
 .hello {
@@ -10,10 +14,63 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.hello h1 {
-     font-family: 'Creepster', cursive;
-     font-size: 70px;
-     color: yellow;
+    
 }
 
+.hello h1 {
+
+    font-size: 70px;
+    color: yellow;
+}
+
+.round {
+    display: flex;
+    min-height: 5vh;
+    flex-flow: column;
+    justify-content: space-between ;
+    align-items: center  ;
+}
+
+.round h2,h4{
+    font-size: 25px;
+    margin: 0;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+.selection{
+    width:120px;
+    height: 120px;
+    font-size: 80px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    margin: 20px;
+    background-color: darkgreen;
+}
+
+.selection:hover {
+    scale: 1.1;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-face {
+    font-size: 60px;
+    margin: 0;
+}
+.point{
+    font-size: 40px;
+    margin: 0;
+}
+
+.computer, .user{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
