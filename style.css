@@ -57,7 +57,7 @@ body {
 .score{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .user-face {
@@ -69,8 +69,17 @@ body {
     margin: 0;
 }
 
+.scc{
+    font-size: 20px;
+}
+
 .computer, .user{
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin: 20px 10%;
+}
+.result {
+    text-align: center;
+    font-size: 50px;
 }
