@@ -1,25 +1,18 @@
-
-function getComputerChoice(){
-    let cards = ['rock','paper','scissor'];
-    let choice = _.sample(cards);
-    return choice;
+function getComputerChoice() {
+  let cards = ["rock", "paper", "scissor"];
+  var card = cards[Math.floor(Math.random() * cards.length)];
+  return card;
 }
 
+const playerChoice = document.querySelectorAll(".selection");
+playerChoice.forEach((sel) => {
+  sel.addEventListener("click", () => {
+    return sel.getAttribute("data-selection");
+  });
+});
 
-const computerSelection = getComputerChoice();
+function playRound(playerSelection, computerSelection) {}
 
-const playerChoice = document.querySelector('.selection[data-selection]=');
+function playerSelection() {}
 
-
-function playRound(playerSelection, computerSelection) {
-    
-  }
-
-  function playerSelection(){
-
-}   
-
-function game(){
-
-}
-
+function game() {}
